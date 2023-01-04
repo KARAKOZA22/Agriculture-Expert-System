@@ -1,0 +1,326 @@
+# bc_simple_rules.krb
+
+what_to_plant1
+    use what_to_plant(Tomato,18,20,from_30_to_50gm,from_25_to_30tons)
+    when
+        questions.soil($ans1)
+        check $ans1 in (1,)
+
+        questions.month($ans2)
+        check $ans2 in (2,)
+
+        questions.season($ans3)
+        check $ans3 in (1,)
+
+what_to_plant2
+    use what_to_plant(Tomato,18,20,from_30_to_50gm,from_25_to_30tons)
+    when
+        questions.soil($ans1)
+        check $ans1 in (1,)
+
+        questions.month($ans2)
+        check $ans2 in (8,)
+
+        questions.season($ans3)
+        check $ans3 in (2,)
+
+what_to_plant3
+    use what_to_plant(Tomato,18,20,from_30_to_50gm,from_25_to_30tons)
+    when
+        questions.soil($ans1)
+        check $ans1 in (1,)
+
+        questions.month($ans2)
+        check $ans2 in (12,)
+
+        questions.season($ans3)
+        check $ans3 in (3,)
+
+what_to_plant4
+    use what_to_plant(Tomato,18,20,from_30_to_50gm,from_25_to_30tons)
+    when
+        questions.soil($ans1)
+        check $ans1 in (1,)
+
+        questions.month($ans2)
+        check $ans2 in (7,)
+
+        questions.season($ans3)
+        check $ans3 in (4,)
+
+what_to_plant5
+    use what_to_plant(Eggplant,20,30,from_10K_to_15K_seedlings,from_15_to_100tons)
+    when
+        questions.soil($ans1)
+        check $ans1 in (2,)
+
+        questions.month($ans2)
+        check $ans2 in (3,)
+
+        questions.season($ans3)
+        check $ans3 in (1,)
+
+what_to_plant6
+    use what_to_plant(Eggplant,20,30,from_250_to_300gm,from_15_to_100tons)
+    when
+        questions.soil($ans1)
+        check $ans1 in (2,)
+
+        questions.month($ans2)
+        check $ans2 in (7,8)
+
+        questions.season($ans3)
+        check $ans3 in (4,)
+
+what_to_plant7
+    use what_to_plant(Eggplant,20,30,from_250_to_300gm,from_15_to_100tons)
+    when
+        questions.soil($ans1)
+        check $ans1 in (2,)
+
+        questions.month($ans2)
+        check $ans2 in (11,12)
+
+        questions.season($ans3)
+        check $ans3 in (2,)
+
+what_to_plant8
+    use what_to_plant(Pepper,18,26,from_150_to_200gm_seeds,from_12_to_20tons)
+    when
+        questions.soil($ans1)
+        check $ans1 in (3,)
+
+        questions.month($ans2)
+        check $ans2 in (1,2)
+
+        questions.season($ans3)
+        check $ans3 in (1,)
+
+what_to_plant9
+    use what_to_plant(Pepper,18,26,from_150_to_200gm_seeds,from_12_to_20tons)
+    when
+        questions.soil($ans1)
+        check $ans1 in (3,)
+
+        questions.month($ans2)
+        check $ans2 in (5,6)
+
+        questions.season($ans3)
+        check $ans3 in (4,)
+
+
+what_to_plant10
+    use what_to_plant(Pepper,18,26,from_150_to_200gm_seeds,from_12_to_20tons)
+    when
+        questions.soil($ans1)
+        check $ans1 in (3,)
+
+        questions.month($ans2)
+        check $ans2 in (9,10)
+
+        questions.season($ans3)
+        check $ans3 in (2,)
+
+what_to_plant11
+    use what_to_plant(Pepper,18,26,from_150_to_200gm_seeds,from_12_to_20tons)
+    when
+        questions.soil($ans1)
+        check $ans1 in (3,)
+
+        questions.month($ans2)
+        check $ans2 in (12,1)
+
+        questions.season($ans3)
+        check $ans3 in (3,)
+
+what_to_plant12
+    use what_to_plant(Potato,20,25,approximately_750Kg,from_15_to_22tons)
+    when
+        questions.soil($ans1)
+        check $ans1 in (4,)
+
+        questions.month($ans2)
+        check $ans2 in (12,)
+
+        questions.season($ans3)
+        check $ans3 in (1,)
+
+what_to_plant13
+    use what_to_plant(Potato,20,25,from_1250_to_1750Kg,from_15_to_22tons)
+    when
+        questions.soil($ans1)
+        check $ans1 in (4,)
+
+        questions.month($ans2)
+        check $ans2 in (9,10)
+
+        questions.season($ans3)
+        check $ans3 in (4,)
+
+what_to_plant14
+    use what_to_plant(Potato,20,25,from_1250_to_1750Kg,from_15_to_22tons)
+    when
+        questions.soil($ans1)
+        check $ans1 in (4,)
+
+        questions.month($ans2)
+        check $ans2 in (11,)
+
+        questions.season($ans3)
+        check $ans3 in (5,)
+
+what_to_plant15
+    use what_to_plant(Watermelon,18,35,from_1_to_2Kg,from_10_to_12tons)
+    when
+        questions.soil($ans1)
+        check $ans1 in (3,)
+
+        questions.month($ans2)
+        check $ans2 in (5,6)
+
+        questions.season($ans3)
+        check $ans3 in (4,)
+
+what_to_plant16
+    use what_to_plant(Watermelon,18,35,from_1_to_2Kg,from_10_to_12tons)
+    when
+        questions.soil($ans1)
+        check $ans1 in (3,)
+
+        questions.month($ans2)
+        check $ans2 in (11,12)
+
+        questions.season($ans3)
+        check $ans3 in (3,)
+
+what_to_plant17
+    use what_to_plant(Beans,12,18,from_30_to_40Kg,Green_pods_from_3_to_4_tons_Dry_seeds_from_900_to_1200kg)
+    when
+        questions.soil($ans1)
+        check $ans1 in (4,)
+
+        questions.month($ans2)
+        check $ans2 in (2,3)
+
+        questions.season($ans3)
+        check $ans3 in (1,)
+
+what_to_plant18
+    use what_to_plant(Beans,12,18,from_30_to_40Kg,Green_pods_from_3_to_4_tons_Dry_seeds_from_900_to_1200kg)
+    when
+        questions.soil($ans1)
+        check $ans1 in (4,)
+
+        questions.month($ans2)
+        check $ans2 in (8,9)
+
+        questions.season($ans3)
+        check $ans3 in (4,)
+
+what_to_plant19
+    use what_to_plant(Peas,13,20,approximately_40Kg,Green_from_2_to_3_tons_Dry_approximately_950kg)
+    when
+        questions.soil($ans1)
+        check $ans1 in (1,)
+
+        questions.month($ans2)
+        check $ans2 in (10,11)
+
+        questions.season($ans3)
+        check $ans3 in (2,)
+
+what_to_plant20
+    use what_to_plant(Cauliflower,23,24,approximately_400g,from_11_to_13tons)
+    when
+        questions.soil($ans1)
+        check $ans1 in (2,5)
+
+        questions.month($ans2)
+        check $ans2 in (5,10)
+
+        questions.season($ans3)
+        check $ans3 in (4,)
+
+what_to_plant21
+    use what_to_plant(Cabbage,7,18,approximately_150g ,approximately_8K_heads )
+    when
+        questions.soil($ans1)
+        check $ans1 in (2,)
+
+        questions.month($ans2)
+        check $ans2 in (3,5)
+
+        questions.season($ans3)
+        check $ans3 in (1,)
+
+what_to_plant22
+    use what_to_plant(Watercress,10,15,from_4_to_8Kg,from_4_to_5tons)
+    when
+        questions.soil($ans1)
+        check $ans1 in (1,2,3,4,5)
+
+        questions.month($ans2)
+        check $ans2 in (1,2,3,4,5,9,10,11,12)
+
+        questions.season($ans3)
+        check $ans3 in (1,2,3,4,5)
+
+what_to_plant23
+    use what_to_plant(Taro,30,more_than_30,from_18_to_20_quintals,from_7_to_14_tons)
+    when
+        questions.soil($ans1)
+        check $ans1 in (1,2)
+
+        questions.month($ans2)
+        check $ans2 in (2,4)
+
+        questions.season($ans3)
+        check $ans3 in (1,)
+
+what_to_plant24
+    use what_to_plant(Garlic,18,25,approximately_200_kg_garlic_bulb,from_7_10tons)
+    when
+        questions.soil($ans1)
+        check $ans1 in (3,)
+
+        questions.month($ans2)
+        check $ans2 in (8,10)
+
+        questions.season($ans3)
+        check $ans3 in (2,)
+
+what_to_plant25
+    use what_to_plant(Lettuce,10,11,from_40k_to_60k_seedlings,from_30k_to_40k_plants)
+    when
+        questions.soil($ans1)
+        check $ans1 in (2,)
+
+        questions.month($ans2)
+        check $ans2 in (9,11)
+
+        questions.season($ans3)
+        check $ans3 in (2,)
+
+what_to_plant26
+    use what_to_plant(Parsley,0,any_degree, from_8_to_12kg,from_3_to_4_tons_per_batch)
+    when
+        questions.soil($ans1)
+        check $ans1 in (1,)
+
+        questions.month($ans2)
+        check $ans2 in (2,8)
+
+        questions.season($ans3)
+        check $ans3 in (5,)
+
+what_to_plant27
+    use what_to_plant(Mulukhiyah,30,more_than_30,from_30_60_kg,approximately_10_tons)
+    when
+        questions.soil($ans1)
+        check $ans1 in (1,)
+
+        questions.month($ans2)
+        check $ans2 in (3,9)
+
+        questions.season($ans3)
+        check $ans3 in (5,)

@@ -1,0 +1,42 @@
+# questions.kqb
+
+soil($ans)
+	what is the type of soil?
+	---
+	$ans = select_1
+		1: Light sandy 
+		2: Heavy loams
+		3: Sandy loams
+		4: Alluvial lands
+		5: Light black
+
+
+month($ans)
+	what is the cultivation time?
+	---
+	$ans = select_1
+		1: January
+		2: February
+		3: March
+		4: April
+		5: May
+		6: June
+		7: July
+		8: August
+		9: September
+		10: October
+		11: November
+		12: December
+
+
+season($ans)
+	What is the harvest season?
+	---
+	$ans = select_1
+		1: Summer Harvest
+		2: Winter Harvest
+		3: Early Summer Harvest
+		4: Fall Harvest
+		5: Spring Harvest
+
+
