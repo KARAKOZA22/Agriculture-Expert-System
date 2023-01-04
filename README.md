@@ -1,6 +1,6 @@
 # Agriculture Expert System
 
-This system uses pyke (python knowledge engine), and has a simple GUI using PySimpleGUI, system takes input from expert which are:
+This system uses pyke (python knowledge engine), and has a simple GUI using PySimpleGUI, system takes inputs from expert which are:
 
 1. Soil Type
 2. Harveest Season
