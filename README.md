@@ -1,4 +1,4 @@
-# Agriculture-Expert-System
+# Agriculture Expert System
 
 This system uses pyke (python knowledge engine), and has a simple GUI using PySimpleGUI, system takes input from expert which are:
 
